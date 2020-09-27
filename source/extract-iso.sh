@@ -93,8 +93,8 @@ fi
 
 # Extraction de l'ISO
   # On entre dans le répertoire de destination
-  cd $2
+  cd $DEST
   # On extrait l'iso
-  7z x -y $1
+  7z x -y $FILE
   # On liste son contenu
   ls

@@ -76,3 +76,11 @@ fi
   # On liste son contenu
   ls
 
+# Fenetre de fin
+  zenity  --info --title="Extraction d'ISO" --text="
+  L'image ISO $FILE 
+  
+  a été décompressée 
+  
+  dans le répertoire $DEST." --width=600
+

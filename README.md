@@ -7,27 +7,20 @@ Need the p7zip package
 Need the zenity package for this version.
 
 
+##Test from the git source
 ```
-apt install p7zip
+$ git clone https://github.com/CyrilleBiot/extractISO.git
+$ cd extractISO/
 ```
-
+Shell version
 ```
-apt install zenity
-```
-
-
-##Shell version
-
-CLI version, for the shell
-
-```
-$ ./extractISO.sh ~/Téléchargements/mini.iso ~/test/
+$ ./source/extract-iso.sh
 ```
 
-##Zenity version
+Zenity version
+```
+$ ./source/extract-iso.sh
+```
 
-```
-$ ./extractISO-zenity.sh 
-```
 
 

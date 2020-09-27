@@ -1,0 +1,6 @@
+source/extract-iso.png usr/share/extract-iso/
+source/extract-iso-zenity.sh usr/share/extract-iso/
+source/extract-iso.sh usr/share/extract-iso/
+source/extract-iso.7.gz usr/share/man/man7/
+source/extract-iso-zenity.7.gz usr/share/man/man7/
+source/extract-iso.desktop /usr/share/applications/

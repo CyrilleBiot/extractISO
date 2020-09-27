@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=0.1
+Name=Extract-iso-zenity
+Comment=Just a easy way to extract a ISO image in a specifique directory
+Exec=/usr/bin/extract-iso-zenity
+Icon=/usr/share/extract-iso/extract-iso.png
+Terminal=False
+Type=Application
+Categories=Utils;
+Keywords=extract-iso;utils;
+Name[fr_FR]=Utilitaire d'extraction image format ISO
+Name[fr_FR.UTF-8]=Utilitaire d'extraction image format ISO
+Name[fr_FR.utf8]=Utilitaire d'extraction image format ISO
