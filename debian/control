@@ -1,0 +1,12 @@
+Source: extract-iso
+Section: utils
+Priority: extra
+Maintainer: Cyrille Biot <cyrille@cbiot.fr>
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/CyrilleBiot/extractISO/
+
+Package: extract-iso
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, p7zip, zenity
+Homepage: https://github.com/CyrilleBiot/extractISO/
+Description: Just a simple util to extract an ISO image into a directory. A CLI version and a Zenity versio.

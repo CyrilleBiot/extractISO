@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "-----------------------------------------------------------------------"
+echo "Delete sym links"
+rm -f  /usr/bin/extract-iso-zenity
+rm -f  /usr/bin/extract-iso
+echo "Symbolic links deleted."
+echo "-----------------------------------------------------------------------"
+exit 0

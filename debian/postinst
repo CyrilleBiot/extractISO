@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "-----------------------------------------------------------------------"
+echo "Create sym links"
+ln -sf /usr/share/extract-iso/extract-iso-zenity.sh /usr/bin/extract-iso-zenity
+ln -sf /usr/share/extract-iso/extract-iso.sh /usr/bin/extract-iso
+echo "Symbolic links created."
+ls -l /usr/bin/extract-iso*
+echo "-----------------------------------------------------------------------"
+exit 0
